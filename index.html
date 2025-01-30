@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/6f70ac3e9d.js" crossorigin="anonymous"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            // one:'rgba(17, 17, 17, 1)'
+             one:'rgba(255, 255, 255, 1)',
+             but:'rgba(23, 152, 0, 1)',
+             bd:'rgba(23, 152, 0, 1)',
+             fo:'rgba(17, 17, 17, 1)',
+             sp:'rgba(23, 152, 0, 1)',
+             gr:'rgba(239, 235, 227, 1)'
+             
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .sora-normal {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+</style>
+</head>
+<body class="sora-normal ">
+
+     <header class="bg-gradient-to-t from-gr to-100%">
+        <nav class="">
+
+            <div class="navbar  sm:pl-[111px] sm:pr-[112px] border-[.5px] border-bd sm:border-0">
+                <div class="navbar-start">
+                  <!-- <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a >Item 1</a></li>
+                      
+                      <li><a >Parent</a></li>
+                         
+                      
+                      <li><a>Item 3</a></li>
+                    </ul>
+                  </div> -->
+                  <!-- <a class="btn btn-ghost text-xl">daisyUI</a> -->
+                   <img src="./styles/c2-assets/logo-footer.png" class="sm:hidden " alt="">
+                   <img src="./styles/c2-assets/logo-header.png" class="hidden sm:block w-[123px] h-[48px]" alt="">
+                </div>
+
+                <div class="navbar-end sm:hidden">
+                    <i class="fa-solid fa-bars text-bd"></i>
+                </div>
+
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li ><a class="text-base">Product</a></li>       
+                    <li> <a class="text-base">Service </a></li>                                      
+                    <li><a class="text-base">Contact us</a></li>
+                  </ul>
+                </div>
+
+
+                <div class="hidden sm:flex navbar-end space-x-2">
+                    <i class="fa-solid fa-magnifying-glass mr-4"></i>
+                    <i class="fa-solid fa-cart-shopping "></i>
+                    <a class="btn w-[93px] h-[36px] text-base border border-bd text-fo">Login</a>
+                  <a class="btn bg-but w-[116px] h-[35px] text-white text-base ">Register</a>
+                </div>
+              </div>
+
+        </nav>
+
+        <div class="hero  min-h-screen mt-[72px]  ">
+            <div class="hero-content text-center mb-0 pb-0">
+              <div class="max-w-2xl  pb-0">
+                <h1 class="text-4xl font-bold">Freshness <span class="text-bd" >You Can <br>
+                    Count</span> On, Prices You’ll Love!</h1>
+                <p class="py-6 text-[16px] text-fo">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br>staples, we’ve got you covered every day!
+                </p>
+               <img src="./styles/c2-assets/hero-vegetables.png" class="sm:w-[1000px] sm:h-[600px]" alt="">
+              </div>
+            </div>
+          </div>
+     </header>
+
+     <main>
+
+       <div>
+        <h2 class="text-sp text-3xl">Services</h2>
+
+        <div>
+            <div class="card bg-gr w-96 shadow-xl">
+                <figure class="px-10  border-2 border-red-500 pt-10">
+                 
+                 <div class="rounded-full bg-white w-[120px] h-[120px] flex justify-center items-center">   <img
+                    src="./styles/c2-assets/service.png"
+                    alt="Shoes"
+                    class=" w-[80px] h-[80px] " /></div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">24/7 Services </h2>
+                  <p> Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br>eiusmod tempor incididunt</p>
+                  
+                </div>
+              </div>
+        </div>
+       </div>
+
+     </main>
+
+     <footer>
+
+     </footer>
+
+
+    
+</body>
+</html>
