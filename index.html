@@ -23,7 +23,11 @@
              fo:'rgba(17, 17, 17, 1)',
              sp:'rgba(23, 152, 0, 1)',
              gr:'rgba(239, 235, 227, 1)',
-             gr2:'rgba(83, 219, 58, 1.00)'
+             gr2:'rgba(83, 219, 58, 1.00)',
+             ca:'rgba(17, 84, 20, 1)',
+             ca1:'rgba(16, 40, 97, 1)',
+             cook:'rgba(99, 183, 109, 1)',
+             wo:'rgba(42, 77, 151, 1)'
 
              
           }
@@ -116,7 +120,9 @@
           </div>
      </header>
 
-     <main>
+     <div>
+
+     <main class="mb-4">
 
        <div class=" flex flex-col justify-center  mt-28 gap-3 ">
         <h2 class="text-sp text-3xl ml-24 sm:ml-24">Services</h2>
@@ -165,10 +171,10 @@
                 </div>
               </div>
         </div>
-       </div>
-
-      
+       </div>     
      
+
+
        <div class="bg-gr mt-28 sm:pt-20 pt-4  h-[850px] sm:h-[600px]">
         <h2 class="text-sp text-3xl ml-[18px] sm:ml-24 mb-6 ">Popular products</h2>
          <div class="flex flex-col sm:flex-row  ">
@@ -324,14 +330,87 @@
 
         <!-- kj -->
     </div >
+    <div  class=" mt-24">
+    <h2 class="text-sp text-3xl ml-[20px] sm:ml-28 mb-9">Arrival & Offers</h2>
+
+    <div class="flex flex-col sm:flex-row justify-between sm:gap-3 sm:w-[1056px] w-[340px] gap-2  justify-self-center">
+        <div class="sm:w-[60%]  mx-auto flex justify-around pr-[-20px]  rounded-lg bg-ca">
+                <div class="flex flex-col justify-center gap-3 ">
+                    <img src="./styles/c2-assets/dawat-logo.png" class="mt-1" alt="">
+                     
+                     <button class="bg-cook text-sm sm:h-12 h-10 ml-1 text-white rounded-md">Cook exotic dishes</button>
+                      <p class="sm:ml-[50px] ml-[10px] sm:text-xl text-lg text-white">Up to <span class="sm:text-3xl text-xl text-white">20% off</span></p>
+                </div>
+                <div class="flex border-2 border-red-800  mr-[-20px] pr-0 items-end ">
+                    <img src="./styles/c2-assets/dawat-mock-up.png" class="sm:w-64 sm:h-48 w-52 h-36 " alt="">
+                </div>
+        </div>
+
+        <div class="flex sm:w-[40%] rounded-lg bg-ca1 justify-around   ">
+
+            <div class="flex flex-col justify-start gap-2 ">
+                <img src="./styles/c2-assets/india-gate-logo.png" class="w-20 h-24" alt="">
+                
+                     <button class="bg-wo text-sm sm:h-12 h-10 w-44 text-white rounded-md ">World’s No.1 Rice</button>
+                    <p class=" sm:text-xl text-lg text-white">Up to <span class="sm:text-3xl text-xl text-white">20% off</span></p>
+            </div>
+            <div class="flex   border-2 border-red-800   items-end">
+                <img src="./styles/c2-assets/india-gate-mock-up.png" class="sm:w-36 sm:h-56 w-20 h-38" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    </div>
       
       
 
-     </main>
+     </main >
+     
+     <div class="sm:w-[80%] w-[90%] sm:h-96 flex sm:flex-row flex-col justify-around items-center mx-auto bg-gr border-2 border-red-600   absolute sm:top-[2600px] sm:left-[120px] top-[3250px] left-[20px] rounded-lg">
+        <div>
+             <img src="./styles/c2-assets/vegetable-busket.png" class="sm:w-80 sm:h-60 w-40 h-32" alt="">
+        </div>
 
-     <footer>
+        <div class="flex flex-col  justify-around space-y-3  border-2 border-red-800 h-[80%]">
 
+            <h2 class="text-3xl font-bold sm:text-black text-sp">Get Grocery News!</h2>
+                <p class="text-sm">Exclusive training tips, ticks, product deals and more.</p>
+                <input type="text" placeholder="Enter Email" class="input input-bordered w-full max-w-xs" />
+                <button class="btn w-32 bg-sp text-white">Subscribe</button>
+
+        </div>
+     </div>
+
+     <footer class="flex  bg-sp mt-72 h-[448px]  sm:items-end  sm:flex-row flex-col ">
+        <div class="flex sm:justify-around  justify-end space-y-4 sm:flex-row flex-col  w-full sm:h-[30%] h-full border-2  sm:items-center  ">
+        <div class="mt-0">
+            <img src="./styles/c2-assets/logo-header.png" alt="">
+            <p  class="text-sm text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+        </div>
+        <div class="space-y-2">
+            <p class="text-sm text-white">Product</p>
+            <p class="text-sm text-white">Service</p>
+            <p class="text-sm text-white">Contact us</p>
+        </div>
+        <div>
+            <p class="text-sm text-white">
+                Follow us
+            </p>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+    </div>
      </footer>
+
+    </div>
 
 
     
